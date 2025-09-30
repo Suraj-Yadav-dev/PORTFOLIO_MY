@@ -6,8 +6,8 @@ import Footer from './components/footer/Footer';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
-import Header from './components/header/header';
-import Intro from './components/intro/intro';
+import Header from './components/header/Header';
+import Intro from './components/intro/Intro';
 
 
 const App = () => {
