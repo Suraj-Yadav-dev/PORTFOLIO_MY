@@ -1,9 +1,9 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/reservation-form.png";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/fh-huquq.png";
+import IMG1 from "../../assets/finScope.png";
+import IMG2 from "../../assets/national-budget.png";
+import IMG3 from "../../assets/Movie.png";
+import IMG4 from "../../assets/study-sphere.png";
 import IMG5 from "../../assets/Jokes Project.jpg";
 import IMG6 from "../../assets/Project4.jpg";
 import React from "react";
@@ -13,63 +13,44 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Educational Website with React.js",
+      title: "finScope:AI-Based fintech platform. ",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
-      technologies: "Html | CSS | Javascript | React Js",
-      link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+        "finScope is an AI-Based fintech platform that provides various financial services and tools.",
+      technologies: "Javascript | React Js | Node Js | Express Js | MongoDB | OpenAI API",
+      link: "https://fin-scope-six.vercel.app/",
+      github: "https://github.com/Suraj-Yadav-dev/StudySphere.git",
     },
     {
       id: 2,
-      title: "fh-huquq.az",
+      title: "StudySphere: AI-Based Educational Platform. ",
       img: IMG4,
       description:
-        "A personal website assembled for a lawyer. Firebase is the basis of the website assembled as a full stack",
-      technologies: "HTML | CSS | JavaScript | Express Js | Firebase",
-      link: "https://fh-huquq-com.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/fh-huquq.com",
+        "StudySphere is an AI-Based educational platform that provides various learning resources and tools.",
+      technologies: "React | JavaScript | Express Js | Node.js |Firebase | MongoDB | OpenAI API",
+      link: "https://study-sphere-tau.vercel.app/",
+      github: "https://github.com/Suraj-Yadav-dev/StudySphere.git",
     },
     {
       id: 3,
-      title: "Hospital reservation form",
+      title: "National Budget Api system",
       img: IMG2,
-      description: "A booking website for doctor's appointments at the hospital. The website is mainly functionally developed with JavaScript",
-      technologies: "HTML | CSS | JavaScript",
-      link: "https://fs-code-task-two.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/FS-Code-Task",
+      description: "Website for managing national budget data. The website is mainly functionally developed with JavaScript",
+      technologies: "JavaScript |React.js | Node.js | Express.js | MongoDB",
+      link: "",
+      github: "",
     },
     {
       id: 4,
-      title: "Startup Landing Page",
+      title: "Movie Review Website",
       img: IMG3,
       description:
-        "A dedicated, standalone web page built for specific campaigns and target audiences.",
-      technologies: "Html | CSS | JavaScript | Next Js",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
+        "Movie Review Website for giving the Reviews and add watchlist built for  target audiences.",
+      technologies: " JavaScript | React.js | Node.js | Express.js | MongoDB",
+      link: "",
+      github: "https://github.com/Suraj-Yadav-dev/Mymovies.git",
     },
-    {
-      id: 5,
-      title: "Jokes Project with Typescript",
-      img: IMG5,
-      description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
-    },
-    {
-      id: 6,
-      title: "Fs Poster Website",
-      img: IMG6,
-      description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
-    },
+   
   ];
 
   return (

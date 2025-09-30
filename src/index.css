@@ -88,6 +88,7 @@ a:hover {
 }
 
 .btn {
+  margin: 1rem;
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
