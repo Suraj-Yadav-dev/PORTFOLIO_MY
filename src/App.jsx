@@ -2,7 +2,7 @@ import React from "react";
 
 // Components
   import Header from "./components/header/Header";   // Correct casing
-import Intro  from "./components/intro/Intro";     // Correct casing
+import Intro  from "./components/intro/intro";     // Correct casing
         // Header.jsx
 import Topbar from "./components/topbar/Topbar";          // Topbar.jsx
            // Intro.jsx
