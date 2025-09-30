@@ -22,15 +22,17 @@ const Portfolio = () => {
       github: "https://github.com/Suraj-Yadav-dev/StudySphere.git",
     },
     {
-      id: 2,
-      title: "StudySphere: AI-Based Educational Platform. ",
-      img: IMG4,
-      description:
-        "StudySphere is an AI-Based educational platform that provides various learning resources and tools.",
-      technologies: "React | JavaScript | Express Js | Node.js |Firebase | MongoDB | OpenAI API",
-      link: "https://study-sphere-tau.vercel.app/",
-      github: "https://github.com/Suraj-Yadav-dev/StudySphere.git",
-    },
+  id: 2,
+  title: "StudySphere: AI-Based Educational Platform.",
+  img: IMG4,
+  description:
+    "StudySphere is an AI-Based educational platform that provides various learning resources and tools.",
+  technologies: "React | JavaScript | Express Js | Node.js | Firebase | MongoDB | OpenAI API",
+  link: "https://study-sphere-tau.vercel.app/",
+  githubFrontend: "https://github.com/Suraj-Yadav-dev/StudySphere.git",
+  githubBackend: "https://github.com/Suraj-Yadav-dev/StudySpherebackend.git",
+},
+
     {
       id: 3,
       title: "National Budget Api system",
