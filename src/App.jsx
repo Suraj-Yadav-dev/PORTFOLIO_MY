@@ -1,13 +1,16 @@
-
 import React from "react";
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
-import Footer from "./components/footer/Footer";
-import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
-import Topbar from "./components/topbar/Topbar";
-import Header from "./components/header/header";  // ✅ Fixed case
-import Intro from "./components/intro/intro";      // ✅ Make sure file is Intro.jsx
+
+// Components
+  import Header from "./components/header/Header";   // Correct casing
+import Intro  from "./components/intro/Intro";     // Correct casing
+        // Header.jsx
+import Topbar from "./components/topbar/Topbar";          // Topbar.jsx
+           // Intro.jsx
+import Experience from "./components/experience/Experience"; // Experience.jsx
+import Portfolio from "./components/portfolio/Portfolio";    // Portfolio.jsx
+import Testimonials from "./components/testimonials/Testimonials"; // Testimonials.jsx
+import Contact from "./components/contact/Contact";       // Contact.jsx
+import Footer from "./components/footer/Footer";          // Footer.jsx
 
 const App = () => {
   return (
