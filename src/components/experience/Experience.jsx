@@ -17,6 +17,10 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Java</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>PyTorch, TensorFlow, NumPy</h4>
             </article>
             <article className="experience__details">
